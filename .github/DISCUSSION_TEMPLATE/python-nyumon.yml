@@ -1,0 +1,53 @@
+title: "Station[番号] - [質問のタイトル]"
+labels: []
+body:
+- type: dropdown
+  attributes:
+    label: Station挑戦
+    description: どのStationについて質問しますか？
+    options:
+      - "Station1"
+      - "Station2"
+      - "Station3"
+      - "Station4"
+      - "Station5"
+      - "Station6"
+      - "Station7"
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: 実行環境(ブラウザ)
+    description: Chrome, Edge, Safari など
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: 実行環境(Colaboratoryファイルバージョン)
+    description: バージョン番号を入力してください。(ファイルの初めに記載されています)
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: 現在起こっていること
+    description: エラー文のコピぺやスクショも含めるようにしましょう
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: 再現するための手順
+    description: 実行したコマンドなど、行った操作を順番に記述してください
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: 実現したいことは何か
+    description: どうなって欲しいと考えているのか書いてみましょう。
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: 自分で調べたこと
+    description: ここまでは調べたけどここがわからなかった、など具体的に書いてみましょう。
+  validations:
+    required: false
