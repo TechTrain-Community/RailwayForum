@@ -7,7 +7,7 @@ body:
     options:
       - label: GitHub ID を TechTrain のプロフィールに設定しましたか？
         required: true
-      - label: 同様の質問がすでにないか確認しましたか？
+      - label: 同様の質問が既にされていないか確認しましたか？
         required: true
 - type: dropdown
   attributes:

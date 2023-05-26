@@ -1,6 +1,14 @@
 title: "質問のタイトル"
 labels: [general]
 body:
+- type: checkboxes
+  attributes:
+    label: 質問の前に...
+    options:
+      - label: GitHub ID を TechTrain のプロフィールに設定しましたか？
+        required: true
+      - label: 同様の質問が既にされていないか確認しましたか？
+        required: true
 - type: markdown
   attributes: 
     value: Railwayに関する質問はそれぞれ個別のカテゴリを使用してください。それ以外の質問はこのカテゴリを利用してください。
