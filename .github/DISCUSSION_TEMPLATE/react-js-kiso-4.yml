@@ -11,7 +11,7 @@ body:
         required: true
 - type: dropdown
   attributes:
-    label: Station挑戦
+    label: Station番号
     description: どのStationについて質問しますか？
     options:
       - "Station1"
