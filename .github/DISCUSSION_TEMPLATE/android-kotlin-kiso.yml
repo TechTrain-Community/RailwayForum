@@ -1,6 +1,14 @@
 title: "Station[番号] - [質問のタイトル]"
 labels: []
 body:
+- type: checkboxes
+  attributes:
+    label: 質問の前に...
+    options:
+      - label: GitHub ID を TechTrain のプロフィールに設定しましたか？
+        required: true
+      - label: 同様の質問がすでにないか確認しましたか？
+        required: true
 - type: dropdown
   attributes:
     label: Station挑戦
