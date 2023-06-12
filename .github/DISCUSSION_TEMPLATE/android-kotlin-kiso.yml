@@ -9,6 +9,12 @@ body:
         required: true
       - label: 同様の質問が既にされていないか確認しましたか？
         required: true
+- type: input
+  attributes:
+    label: ユーザーID
+    description: TechTrainのユーザーIDを教えてください。https://techtrain.dev/mypage/profile で確認できます。
+  validations:
+    required: true
 - type: dropdown
   attributes:
     label: Station番号
