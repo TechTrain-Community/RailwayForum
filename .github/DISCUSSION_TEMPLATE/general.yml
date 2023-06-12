@@ -9,6 +9,12 @@ body:
         required: true
       - label: 同様の質問が既にされていないか確認しましたか？
         required: true
+- type: input
+  attributes:
+    label: ユーザーID
+    description: TechTrainのユーザーIDを入力してください。https://techtrain.dev/mypage/profile で確認できます。
+  validations:
+    required: true
 - type: markdown
   attributes: 
     value: Railwayに関する質問はそれぞれ個別のカテゴリを使用してください。それ以外の質問はこのカテゴリを利用してください。
