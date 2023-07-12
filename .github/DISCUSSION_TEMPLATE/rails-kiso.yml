@@ -1,0 +1,84 @@
+title: "Station[番号] - [質問のタイトル]"
+labels: []
+body:
+- type: checkboxes
+  attributes:
+    label: 質問の前に...
+    options:
+      - label: GitHub ID を TechTrain のプロフィールに設定しましたか？
+        required: true
+      - label: 同様の質問が既にされていないか確認しましたか？
+        required: true
+- type: input
+  attributes:
+    label: ユーザーID
+    description: TechTrainのユーザーIDを入力してください。https://techtrain.dev/mypage/profile で確認できます。
+  validations:
+    required: true
+- type: dropdown
+  attributes:
+    label: Station番号
+    description: どのStationについて質問しますか？
+    options:
+      - "Station1"
+      - "Station2"
+      - "Station3"
+      - "Station4"
+      - "Station5"
+      - "Station6"
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: 実行環境(OS)
+    description: Mac OS Venture、Windows 11、Ubuntu 22 など
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: 実行環境(Yarn)
+    description: バージョン番号を入力してください。(yarn -v で確認できます)
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: 実行環境(Node.js)
+    description: バージョン番号を入力してください。(node -v で確認できます)
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: 実行環境(Rails)
+    description: バージョン番号を入力してください。
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: 実行環境(gem)
+    description: バージョン番号を入力してください。
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: 現在起こっていること
+    description: エラー文のコピぺやスクショも含めるようにしましょう
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: 再現するための手順
+    description: 実行したコマンドなど、行った操作を順番に記述してください
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: 実現したいことは何か
+    description: どうなって欲しいと考えているのか書いてみましょう。
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: 自分で調べたこと
+    description: ここまでは調べたけどここがわからなかった、など具体的に書いてみましょう。
+  validations:
+    required: false
