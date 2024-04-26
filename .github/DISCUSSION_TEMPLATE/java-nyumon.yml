@@ -39,14 +39,14 @@ body:
     required: true
 - type: input
   attributes:
-    label: 実行環境(ブラウザ)
-    description: Chrome, Edge, Safari など
+    label: 実行環境(openjdkバージョン)
+    description: バージョン番号を入力してください。`java -version`で確認できます。
   validations:
     required: true
 - type: input
   attributes:
-    label: 実行環境(openjdkバージョン)
-    description: バージョン番号を入力してください。`java -version`で確認できます。
+    label: 実行環境(mavenバージョン)
+    description: バージョン番号を入力してください。`mvn -version`で確認できます。
   validations:
     required: true
 - type: textarea
