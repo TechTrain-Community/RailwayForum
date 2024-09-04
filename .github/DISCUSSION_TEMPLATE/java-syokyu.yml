@@ -55,7 +55,7 @@ body:
     required: true
 - type: textarea
   attributes:
-    label: 現在起こっていること（説明 / エラー文のコピペ、スクショ / エディタ含め、コード全体が写っているスクショ）
+    label: 現在起こっていること（説明文 / エラー文のコピペ、スクショ / コードやエディタを含めた全体が写っているスクショ）
     description: 上記が揃っているとディスカッションが進めやすいです。
   validations:
     required: true
@@ -68,7 +68,7 @@ body:
 - type: textarea
   attributes:
     label: 実現したいことは何か
-    description: できるだけ「クリアしたい」以外の言葉で、どうなって欲しいのかをプログラム側の視点から書いてみましょう。
+    description: できるだけ「クリアしたい」以外の言葉で、どうなって欲しいのかをプログラム視点で書いてみましょう。
   validations:
     required: false
 - type: textarea
