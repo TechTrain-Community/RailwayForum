@@ -5,16 +5,20 @@ body:
   attributes:
     label: 質問の前に...
     options:
-      - label: GitHub ID を TechTrain のプロフィールに設定しましたか？
-        required: true
       - label: 同様の質問が既にされていないか確認しましたか？
         required: true
 - type: input
   attributes:
-    label: TechTrainのユーザーID (数字)
+    label: TechTrainのユーザーID（数字）
     description: TechTrainのユーザーIDを入力してください。https://techtrain.dev/mypage/profile で確認できます。
   validations:
     required: true
+- type: input
+  attributes:
+    label: GitHubID
+    description: GitHubのIDを入力してください。
+  validations:
+    required: false
 - type: dropdown
   attributes:
     label: Station番号
@@ -38,55 +42,55 @@ body:
     required: true
 - type: input
   attributes:
-    label: 実行環境(OS)
+    label: 実行環境（OS）
     description: Mac OS Venture、Windows 11、Ubuntu 22 など
   validations:
     required: true
 - type: input
   attributes:
-    label: 実行環境(Yarn)
-    description: バージョン番号を入力してください。(yarn -v で確認できます)
+    label: 実行環境（Yarn）
+    description: バージョン番号を入力してください。（yarn -v で確認できます）
   validations:
     required: true
 - type: input
   attributes:
-    label: 実行環境(Node.js)
-    description: バージョン番号を入力してください。(node -v で確認できます)
+    label: 実行環境（Node.js）
+    description: バージョン番号を入力してください。（node -v で確認できます）
   validations:
     required: true
 - type: input
   attributes:
-    label: 実行環境(Rails)
-    description: バージョン番号を入力してください。
+    label: 実行環境（Rails）
+    description: バージョン番号を入力してください。（rails -v で確認できます）
   validations:
     required: true
 - type: input
   attributes:
-    label: 実行環境(gem)
-    description: バージョン番号を入力してください。
+    label: 実行環境（gem）
+    description: バージョン番号を入力してください。（gem env で確認できます）
   validations:
     required: true
 - type: textarea
   attributes:
-    label: 現在起こっていること
-    description: エラー文のコピぺやスクショも含めるようにしましょう
+    label: 現在起こっていること（説明文 / エラー文のコピペ、スクショ / コードやエディタを含めた全体が写っているスクショ）
+    description: 上記が揃っているとディスカッションが進めやすいです。
   validations:
     required: true
 - type: textarea
   attributes:
     label: 再現するための手順
-    description: 実行したコマンドなど、行った操作を順番に記述してください
+    description: 実行したコマンドなど、行った操作を順番に記述してください。
   validations:
     required: false
 - type: textarea
   attributes:
     label: 実現したいことは何か
-    description: どうなって欲しいと考えているのか書いてみましょう。
+    description: できるだけ「クリアしたい」以外の言葉で、どうなって欲しいのかをプログラム視点で書いてみましょう。
   validations:
     required: false
 - type: textarea
   attributes:
-    label: 自分で調べたこと
-    description: ここまでは調べたけどここがわからなかった、など具体的に書いてみましょう。
+    label: 自分で調べて行ったこと
+    description: ここまで調べてそれを踏まえた上でこうしたけど、ここがわからなかった（できなかった）、など具体的に書いてみましょう。
   validations:
     required: false
