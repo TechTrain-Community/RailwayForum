@@ -13,12 +13,6 @@ body:
     description: TechTrainのユーザーIDを入力してください。https://techtrain.dev/mypage/profile で確認できます。
   validations:
     required: true
-- type: input
-  attributes:
-    label: GitHubID
-    description: GitHubのIDを入力してください。
-  validations:
-    required: false
 - type: dropdown
   attributes:
     label: Station番号
