@@ -37,6 +37,12 @@ body:
     required: true
 - type: input
   attributes:
+    label: 実行環境（OS）
+    description: Mac OS Venture、Windows 11、Ubuntu 22 など
+  validations:
+    required: true
+- type: input
+  attributes:
     label: 実行環境（openjdkバージョン）
     description: バージョン番号を入力してください。`java -version`で確認できます。
   validations:
