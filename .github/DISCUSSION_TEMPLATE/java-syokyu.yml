@@ -38,7 +38,7 @@ body:
 - type: input
   attributes:
     label: 実行環境（OS）
-    description: Mac OS Venture、Windows 11、Ubuntu 22 など
+    description: Mac OS Venture、Windows 11、Ubuntu 22 などを記入してください。
   validations:
     required: true
 - type: input

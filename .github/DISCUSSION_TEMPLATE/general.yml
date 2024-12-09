@@ -32,6 +32,6 @@ body:
 - type: textarea
   attributes:
     label: 質問内容
-    description: こちらに本文を記入してください
+    description: こちらに本文を記入してください。
   validations:
     required: true

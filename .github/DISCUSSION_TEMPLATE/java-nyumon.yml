@@ -38,19 +38,19 @@ body:
 - type: input
   attributes:
     label: 実行環境（OS）
-    description: Mac OS Venture、Windows 11、Ubuntu 22 など
+    description: Mac OS Venture、Windows 11、Ubuntu 22 などを記入してください。
   validations:
     required: true
 - type: input
   attributes:
     label: 実行環境（openjdkバージョン）
-    description: バージョン番号を入力してください。`java -version`で確認できます。
+    description: バージョン番号を入力してください。`java -version`で確認できます。Codespaces を使用している方は「Codespaces 使用」と入力してください。
   validations:
     required: true
 - type: input
   attributes:
     label: 実行環境（mavenバージョン）
-    description: バージョン番号を入力してください。`mvn -version`で確認できます。
+    description: バージョン番号を入力してください。`mvn -version`で確認できます。Codespaces を使用している方は「Codespaces 使用」と入力してください。
   validations:
     required: true
 - type: textarea

@@ -31,19 +31,19 @@ body:
 - type: input
   attributes:
     label: 実行環境(OS)
-    description: Mac OS Venture、Windows 11、Ubuntu 22 など
+    description: Mac OS Venture、Windows 11、Ubuntu 22 などを記入してください。
   validations:
     required: true
 - type: input
   attributes:
     label: 実行環境(Yarn)
-    description: バージョン番号を入力してください。(yarn -v で確認できます)
+    description: バージョン番号を入力してください。`yarn -v`で確認できます。
   validations:
     required: true
 - type: input
   attributes:
     label: 実行環境(Node.js)
-    description: バージョン番号を入力してください。(node -v で確認できます)
+    description: バージョン番号を入力してください。`node -v`で確認できます。
   validations:
     required: true
 - type: input
@@ -55,13 +55,13 @@ body:
 - type: textarea
   attributes:
     label: 現在起こっていること
-    description: エラー文のコピぺやスクショも含めるようにしましょう
+    description: エラー文のコピぺやスクショも含めるようにしましょう。
   validations:
     required: true
 - type: textarea
   attributes:
     label: 再現するための手順
-    description: 実行したコマンドなど、行った操作を順番に記述してください
+    description: 実行したコマンドなど、行った操作を順番に記述してください。
   validations:
     required: false
 - type: textarea
