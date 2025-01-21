@@ -17,8 +17,17 @@ body:
     required: true
 - type: dropdown
   attributes:
+    label: 挑戦している Railway
+    description: どの Railway について質問しますか？
+    options:
+      - "Android Kotlin 初級編"
+      - "Android Kotlin 基礎編"
+  validations:
+    required: true
+- type: dropdown
+  attributes:
     label: Station番号
-    description: どのStationについて質問しますか？
+    description: どのStationについて質問しますか？（基礎編は 1 ~ 8 の間で選択してください。）
     options:
       - "Station1"
       - "Station2"
@@ -28,6 +37,15 @@ body:
       - "Station6"
       - "Station7"
       - "Station8"
+      - "Station9"
+      - "Station10"
+      - "Station11"
+      - "Station12"
+      - "Station13"
+      - "Station14"
+      - "Station15"
+      - "Station16"
+      - "Station17"
   validations:
     required: true
 - type: input
@@ -56,8 +74,8 @@ body:
     required: true
 - type: textarea
   attributes:
-    label: 現在起こっていること
-    description: エラー文のコピぺやスクショも含めるようにしましょう。
+    label: 現在起こっていること（説明文 / エラー文のコピペ、スクショ / コードやエディタを含めた全体が写っているスクショ）
+    description: 上記が揃っているとディスカッションが進めやすいです。
   validations:
     required: true
 - type: textarea
@@ -69,12 +87,12 @@ body:
 - type: textarea
   attributes:
     label: 実現したいことは何か
-    description: どうなって欲しいと考えているのか書いてみましょう。
+    description: できるだけ「クリアしたい」以外の言葉で、どうなって欲しいのかをプログラム視点で書いてみましょう。
   validations:
     required: false
 - type: textarea
   attributes:
     label: 自分で調べたこと
-    description: ここまでは調べたけどここがわからなかった、など具体的に書いてみましょう。
+    description: ここまで調べてそれを踏まえた上でこうしたけど、ここがわからなかった（できなかった）、など具体的に書いてみましょう。
   validations:
     required: false
