@@ -11,7 +11,7 @@ body:
         required: true
 - type: input
   attributes:
-    label: TechTrainのユーザーID (数字)
+    label: TechTrainのユーザーID（数字）
     description: TechTrainのユーザーIDを入力してください。https://techtrain.dev/mypage/profile で確認できます。
   validations:
     required: true
