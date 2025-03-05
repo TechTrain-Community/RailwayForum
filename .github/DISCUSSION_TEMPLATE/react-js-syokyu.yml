@@ -52,7 +52,7 @@ body:
 - type: textarea
   attributes:
     label: 現在起こっていること（説明文 / エラー文のコピペ、スクショ / コードやエディタを含めた全体が写っているスクショ）
-    description: 上記が揃っているとディスカッションが進めやすいです。
+    description: 上記が揃っているとディスカッションが進めやすいです。スクショはできるだけ広い範囲を写しましょう。
   validations:
     required: true
 - type: textarea
