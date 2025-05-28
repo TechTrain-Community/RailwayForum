@@ -5,14 +5,12 @@ body:
   attributes:
     label: 質問の前に...
     options:
-      - label: GitHub ID を TechTrain のプロフィールに設定しましたか？
-        required: true
       - label: 同様の質問が既にされていないか確認しましたか？
         required: true
 - type: input
   attributes:
     label: TechTrainのユーザーID（数字）
-    description: TechTrainのユーザーIDを入力してください。https://techtrain.dev/mypage/profile で確認できます。
+    description: TechTrain のユーザー ID を入力してください。TechTrain マイページ（https://techtrain.dev/mypage）で確認できます。
   validations:
     required: true
 - type: dropdown
@@ -28,8 +26,8 @@ body:
     required: true
 - type: dropdown
   attributes:
-    label: Station番号
-    description: どのStationについて質問しますか？（基礎編1は 5、基礎編2は 6、基礎編4は 5 までで選択してください。）
+    label: Station 番号
+    description: どの Station について質問しますか？（基礎編1は 5、基礎編2は 6、基礎編4は 5 までで選択してください。）
     options:
       - "Station1"
       - "Station2"

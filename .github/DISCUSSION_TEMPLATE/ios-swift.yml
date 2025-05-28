@@ -11,8 +11,8 @@ body:
         required: true
 - type: input
   attributes:
-    label: TechTrainのユーザーID（数字）
-    description: TechTrainのユーザーIDを入力してください。https://techtrain.dev/mypage/profile で確認できます。
+    label: TechTrain のユーザー ID（数字）
+    description: TechTrain のユーザー ID を入力してください。TechTrain マイページ（https://techtrain.dev/mypage）で確認できます。
   validations:
     required: true
 - type: dropdown
@@ -26,7 +26,7 @@ body:
     required: true
 - type: dropdown
   attributes:
-    label: Station番号
+    label: Station 番号
     description: Station を選択してください。（基礎編は 1 ~ 8 の間で選択してください。）
     options:
       - "Station1"

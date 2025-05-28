@@ -5,20 +5,18 @@ body:
   attributes:
     label: 質問の前に...
     options:
-      - label: GitHub ID を TechTrain のプロフィールに設定しましたか？
-        required: true
       - label: 同様の質問が既にされていないか確認しましたか？
         required: true
 - type: input
   attributes:
-    label: TechTrainのユーザーID (数字)
-    description: TechTrainのユーザーIDを入力してください。https://techtrain.dev/mypage/profile で確認できます。
+    label: TechTrain のユーザー ID（数字）
+    description: TechTrain のユーザー ID を入力してください。TechTrain マイページ（https://techtrain.dev/mypage）で確認できます。
   validations:
     required: true
 - type: dropdown
   attributes:
-    label: Station番号
-    description: どのStationについて質問しますか？
+    label: Station 番号
+    description: どの Station について質問しますか？
     options:
       - "Station1"
       - "Station2"
@@ -32,20 +30,20 @@ body:
     required: true
 - type: input
   attributes:
-    label: 実行環境(ブラウザ)
-    description: Chrome, Edge, Safari などを記入してください。
+    label: 実行環境（ブラウザ）
+    description: Chrome、Edge、Safari などを記入してください。
   validations:
     required: true
 - type: input
   attributes:
-    label: 実行環境(Colaboratory ファイルバージョン)
-    description: バージョン番号を入力してください。(ファイルの初めに記載されています。)
+    label: 実行環境（Colaboratory ファイルバージョン）
+    description: バージョン番号を入力してください。（ファイルの初めに記載されています。）
   validations:
     required: true
 - type: textarea
   attributes:
-    label: 現在起こっていること
-    description: エラー文のコピぺやスクショも含めるようにしましょう。
+    label: 現在起こっていること（説明文 / エラー文のコピペ、スクショ / コードやエディタを含めた全体が写っているスクショ）
+    description: 上記が揃っているとディスカッションが進めやすいです。スクショはできるだけ広い範囲を写しましょう。
   validations:
     required: true
 - type: textarea
@@ -57,12 +55,12 @@ body:
 - type: textarea
   attributes:
     label: 実現したいことは何か
-    description: どうなって欲しいと考えているのか書いてみましょう。
+    description: できるだけ「クリアしたい」以外の言葉で、どうなって欲しいのかをプログラム視点で書いてみましょう。
   validations:
     required: false
 - type: textarea
   attributes:
-    label: 自分で調べたこと
-    description: ここまでは調べたけどここがわからなかった、など具体的に書いてみましょう。
+    label: 自分で調べて行ったこと
+    description: ここまで調べてそれを踏まえた上でこうしたけど、ここがわからなかった（できなかった）、など具体的に書いてみましょう。
   validations:
     required: false
