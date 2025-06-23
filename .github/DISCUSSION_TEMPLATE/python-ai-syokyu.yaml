@@ -39,12 +39,6 @@ body:
     description: Chrome、Edge、Safari などを記入してください。
   validations:
     required: true
-- type: input
-  attributes:
-    label: 実行環境（Colaboratory ファイルバージョン）
-    description: バージョン番号を入力してください。（ファイルの初めに記載されています。）
-  validations:
-    required: true
 - type: textarea
   attributes:
     label: 現在起こっていること（説明文 / エラー文のコピペ、スクショ / コードやエディタを含めた全体が写っているスクショ）
