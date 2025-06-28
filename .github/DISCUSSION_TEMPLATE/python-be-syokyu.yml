@@ -10,7 +10,7 @@ body:
 - type: input
   attributes:
     label: TechTrain のユーザー ID（数字）
-    description: TechTrain のユーザー ID を入力してください。TechTrain マイページ（https://techtrain.dev/mypage）で確認できます。
+    description: GitHub ID ではありません。（数字のみ）TechTrain マイページ（https://techtrain.dev/mypage）で確認できます。
   validations:
     required: true
 - type: dropdown
