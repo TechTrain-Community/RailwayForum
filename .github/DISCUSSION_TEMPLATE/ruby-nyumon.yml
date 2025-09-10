@@ -7,10 +7,12 @@ body:
     options:
       - label: 同様の質問が既にされていないか確認しましたか？
         required: true
+      - label: アドバイスを待っている間も、[Learning Agent](https://techtrain.dev/guide/2496ee89-3166-80df-90a4-c77fce9c374a) を活用して解決を目指しましょう。
+        required: true
 - type: input
   attributes:
     label: TechTrain のユーザー ID（数字）
-    description: GitHub ID ではありません。（数字のみ）TechTrain マイページ（https://techtrain.dev/mypage）で確認できます。
+    description: GitHub ID ではありません。（数字のみ）TechTrain [マイページ](https://techtrain.dev/mypage) で確認できます。
   validations:
     required: true
 - type: dropdown
