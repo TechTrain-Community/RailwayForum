@@ -21,6 +21,7 @@ body:
     description: どの Railway について質問しますか？
     options:
       - "Android Kotlin 初級編"
+      - "Android Kotlin 初級編 - Compose"
       - "Android Kotlin 基礎編"
   validations:
     required: true
